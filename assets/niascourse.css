@@ -1,0 +1,649 @@
+.nselementory-section .nscourse-section .nspanel-group .nscourse-panel-heading {
+    border-top: 1px solid #e9ecef;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 15px;
+    cursor: pointer;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out
+}
+
+.nselementory-section .nscourse-section .nspanel-group .nscourse-panel-heading.active,
+.nselementory-section .nscourse-section .nspanel-group .nscourse-panel-heading:hover {
+    background-color: #f8f9fa
+}
+
+
+.nspanel-heading-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+ .nstitle {
+  margin-bottom: 0px;
+}
+
+.nscourse-lesson-icon {
+    line-height: 1;
+    margin-left: 15px
+}
+
+.nscourse-lesson-icon i {
+    color: #d4d9dd;
+    font-size: 20px;
+    -webkit-transition: color .2s ease-out;
+    transition: color .2s ease-out
+}
+
+ .nsbadge-item {
+    padding: 2px 6px;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-left: 6px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    order: -9999;
+}
+
+ .panel-heading-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.nselementory-section .nscourse-section .nspanel-group .nscourse-panel-heading .private-lesson {
+    margin-left: 6px;
+    padding-right: 0
+}
+
+.private-lesson .fa.green-lock {
+    color: #48af3b
+}
+
+    .nselementory-section .nscourse-section .nspanel-group .nscourse-panel-heading .private-lesson i {
+        margin-right: 0!important
+    }
+
+.preview-button {
+    background-color: #ff6060;
+    color: #fff;
+    border-radius: 30px
+}
+
+.nsdownload-button {
+    background-color: #4ece3d;
+    color: #fff;
+    height: 34px;
+    border-radius: 30px;
+    svg{
+        fill:#fff;
+    }
+}
+
+.nsdownload-button.gray {
+    background-color: #bac2c5;
+    margin-right: 8px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+
+ .nsdownload-button,
+ .preview-button,
+.private-lesson {
+    font-size: 14px;
+    line-height: normal;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+span.nsspanpreviewtext {
+    line-height: 0;
+}
+.nselementory-section .nscourse-section i{
+    display: flex;
+    align-items: center;
+}
+
+
+.nselementory-section .nscourse-section .nspanel-group .nscourse-panel-heading .preview-button i,
+.nselementory-section .nscourse-section .nspanel-group .nscourse-panel-heading .private-lesson i {
+    display: flex;
+    align-items: center;}
+
+.nselementory-section .nscourse-section .nspanel-group .nspanel-content {
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+.nselementory-section .nscourse-section .nspanel-group .nspanel-content .nsnspanel-content-inner {
+    padding: 15px 15px 20px 15px;
+    background: #fff;
+    font-size: 13px;
+    text-align: justify;
+    border: 1px solid #e9ecef
+}
+
+
+.course-wrapper-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.course-main-wrapper.shop-sidebar-left .course-wrapper-inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse
+}
+
+.course-wrapper-inner .courses-holder {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+
+.courses-holder .courses-top-bar {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-bottom: 1.875rem;
+    padding: 1rem 1.25rem
+}
+
+.courses-holder .term-description {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-bottom: 1.875rem;
+    padding: 1rem 1.25rem
+}
+
+.courses-holder .courses-top-bar .courses-top-bar-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.courses-holder .courses-top-bar .courses-top-bar-inner .courses-top-bar-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.courses-holder .courses-top-bar .courses-top-bar-inner .courses-top-bar-left .woocommerce-result-count {
+    margin-bottom: 0
+}
+
+.courses-holder .courses-top-bar .layout-switcher {
+    margin-right: 1rem
+}
+
+@media (max-width:767.98px) {
+    .courses-holder .courses-top-bar .layout-switcher {
+        display: none
+    }
+}
+
+.courses-holder .courses-top-bar .layout-switcher>a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    padding: .5rem .625rem;
+    margin-right: .3125rem
+}
+
+.courses-holder .courses-top-bar .layout-switcher>a.active {
+    background-color: #1e83f0;
+    border-color: #1e83f0
+}
+
+.courses-holder .courses-top-bar .layout-switcher>a.active svg {
+    fill: #fff
+}
+
+.courses-holder .courses-top-bar .layout-switcher>a svg {
+    fill: #495057;
+    width: 20px;
+    height: 20px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+
+.nselementory-section .nscourse-section-title-elementory {
+    margin: 0;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nselementory-section .nscourse-section-title-elementory.cursor-pointer {
+    cursor: pointer
+}
+
+.nselementory-section .nscourse-section-title-elementory .far {
+    padding: 4px 0 4px 10px;
+    color: #7b868a
+}
+
+.nsarrowicon {
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 12px;
+    font-size: 25px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: #bdbdbd;
+}
+
+.nselementory-section .nscourse-section-title-elementory img {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.nselementory-section .nscourse-section-title-elementory .nsgheadlinel {
+    display: inline-block;
+    margin-right: 7px;
+    color: #111;
+}
+.nselementory-section .nscourse-section-title-elementory .nsgheadlinel span {
+  font-size:18px;
+  font-weight: 600;
+}
+.nselementory-section .nscourse-section-title-elementory .nsgheadlinel p {
+  margin-bottom: 0;
+}
+
+@keyframes rotateIconnias {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(90deg) scale(0.5);
+    }
+    100% {
+        transform: rotate(180deg) scale(1);
+    }
+}
+@keyframes rotateIconbacknias {
+    0% {
+        transform: rotate(180deg) scale(1);
+    }
+    50% {
+        transform: rotate(90deg) scale(0.5);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+.nscourse-section .nsarrowicon, 
+.toggle_section .nsarrowicon, 
+.toggle_lesson .nsarrowicon {
+    animation: rotateIconbacknias 0.5s forwards;
+    -webkit-animation: rotateIconbacknias 0.5s forwards; /* برای مرورگرهای قدیمی‌تر */
+    -moz-animation: rotateIconbacknias 0.5s forwards;    /* برای مرورگرهای قدیمی‌تر */
+    -ms-animation: rotateIconbacknias 0.5s forwards;     /* برای مرورگرهای قدیمی‌تر */
+    -o-animation: rotateIconbacknias 0.5s forwards;      /* برای مرورگرهای قدیمی‌تر */
+}
+
+.nscourse-section.active .nsarrowicon, 
+.toggle_section.active .nsarrowicon, 
+.toggle_lesson.active .nsarrowicon {
+    animation: rotateIconnias 0.5s forwards;
+    -webkit-animation: rotateIconnias 0.5s forwards; /* برای مرورگرهای قدیمی‌تر */
+    -moz-animation: rotateIconnias 0.5s forwards;    /* برای مرورگرهای قدیمی‌تر */
+    -ms-animation: rotateIconnias 0.5s forwards;     /* برای مرورگرهای قدیمی‌تر */
+    -o-animation: rotateIconnias 0.5s forwards;      /* برای مرورگرهای قدیمی‌تر */
+}
+.nselementory-section .nscourse-section {
+	background: #fff;
+    border: 1px solid #e9ecef;
+	border-radius: 10px;
+}
+
+
+.nspanel-group.deactive {
+    display: none;
+}
+
+/*panel content nias*/
+
+.nspanel-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.nspanel-content.active {
+  max-height: 1000px; /* Set a default max-height value */
+}
+.nscourse-section-title-elementory.cursor-pointer img, .nscourse-section-title-elementory img {
+    max-height: 58px;
+        max-width: 58px !important;
+    margin-left: 15px;
+    display: inline-block;
+        height: auto!important;
+}
+
+.nselementory-section .nscourse-section .nspanel-group .nscourse-panel-heading .nspanel-heading-left .nstitle {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.nssubtitle{
+    margin: 0;
+}
+
+.ns-icon-wrapper2 svg , .ns-icon-wrapper svg{
+    width: fit-content;
+}
+
+@media only screen and (max-width:700px){
+    .nsspanpreviewtext{
+        font-size: 0!important;
+    }
+}
+
+/*private text*/
+
+.ns-private-lesson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ns-private-lesson span {
+    position: absolute;
+    top: -46px;
+    width: max-content;
+    background-color: #252525;
+    padding: 2px 10px;
+    border-radius: 11px;
+    color: white;
+    opacity: 0;
+    transform: scale(0) rotate(45deg);
+    transition: 0.5s;
+}
+
+.ns-private-lesson span:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    right: calc(50% - 10px);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #252525;
+}
+
+.nscourse-panel-heading:hover .ns-private-lesson span {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+}
+.nscourse-panel-heading.active .ns-icon-wrapper i , .nscourse-panel-heading:hover .ns-icon-wrapper i{
+    color:red;
+}
+@media only screen and (min-width:700px){
+    .video-lesson-preview.preview-button {
+        gap: 10px;
+    }
+}
+.nspanel-content-inner p{
+margin: 0!important;
+}
+.nspanel-content-inner{
+    padding: 10px;
+}
+
+/*spot player*/
+.ns-spotlicense {
+    background-color: #6611dd;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+textarea.nsspotlicense {
+    width: 100%;
+    border-radius: 10px;
+ resize: none;
+      
+}
+
+button.nsspotcopybtn {
+    padding: 12px 24px;
+    border-radius: 15px;
+    border: none;
+    font-family: unset;
+    background-color: #2a2a2a;
+    color: white;
+    cursor: pointer;
+}
+
+p.ns-spotconfirm {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: #6611dd;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ns-spotdlicon a svg {
+    width: 50px;
+    height: 50px;
+}
+
+.ns-spotdlicon a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #6611dd;
+    border-radius: 15px;
+}
+
+.ns-spotdlicon {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+p.ns-spotdltitle {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 3px solid #6611dd;
+    margin-bottom: 20px;
+    color: #6611dd;
+    font-weight: bold;
+}
+/*fix load svg*/
+.nsarrowicon svg , .nscourse-panel-heading svg{
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+}
+
+.nias-preview-tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    color: unset;
+}
+.nsdownload-button{
+    color: white;
+}
+
+.nias-lesson-text {
+    flex-direction: column;
+    gap: 5px !important;
+    align-items: flex-start !important;
+}
+
+@media only screen and (max-width:700px) {
+    .nsspanpreviewtext {
+        display: none !important;
+    }
+}
+
+ul.lessons_list {
+    padding-right: 0;
+}
+
+.nias-left-head,
+.nias-right-head,
+.nias-left-head *:not(a),
+.nias-right-head *:not(a) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nias_course_section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.lesson_header img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.section_content li {
+    list-style: none;
+}
+
+.section_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.section_title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section_subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.section_content {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.lesson_item {
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.lesson_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.lesson_title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lesson_content {
+    margin-top: 10px;
+    display: none;
+}
+
+button.toggle_section,
+button.toggle_lesson {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.lesson_header:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+}
+
+.nias-course-icon svg {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+}
